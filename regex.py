@@ -85,8 +85,13 @@ print(re.search(r"A.*a", "Azerbaijan"))
 print(re.search(r"^A.*a$", "Australia")) """
 
 
-pattern = r"^[a-zA-Z_][a-zA-Z0-9_]*$"
+""" pattern = r"^[a-zA-Z_][a-zA-Z0-9_]*$"
 print(re.search(pattern, "_this_is_a_valid_variable_name"))
 print(re.search(pattern, "this isn't a valid variable"))
 print(re.search(pattern, "my_variable1"))
-print(re.search(pattern, "2my_variable1"))
+print(re.search(pattern, "2my_variable1")) """
+
+# *- is used to match zero or more occurrences of the preceding character.
+# \w- is used to match any alphanumeric character (letters and digits) and the underscore character.
+# \d- is used to match any digit character (0-9).
+# {}- is used to specify the number of occurrences of the preceding character or group.
