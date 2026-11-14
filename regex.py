@@ -96,3 +96,4 @@ print(re.search(pattern, "2my_variable1")) """
 # \d- is used to match any digit character (0-9).
 # {}- is used to specify the number of occurrences of the preceding character or group.
 # \b- is used to match a word boundary, which is the position between a word character and a non-word character.
+# !- is used to match the exclamation mark character literally.
